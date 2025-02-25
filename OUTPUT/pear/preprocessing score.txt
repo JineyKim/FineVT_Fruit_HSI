@@ -1,0 +1,35 @@
+Ascening by Accuracy:
+
+  SNV  Savgol  Differencing  Accuracy  F1-score  roc-auc-score
+ True    True         False  0.993025  0.993022       0.968991
+False    True          True  0.992701  0.992594       0.967086
+False    True         False  0.992677  0.992618       0.963036
+False   False         False  0.992639  0.992582       0.965104
+ True   False         False  0.992585  0.992628       0.973920
+ True    True          True  0.991042  0.990945       0.953653
+False   False          True  0.990401  0.990040       0.921675
+ True   False          True  0.988102  0.987619       0.907479
+
+Ascening by F1 score:
+
+  SNV  Savgol  Differencing  Accuracy  F1-score  roc-auc-score
+ True    True         False  0.993025  0.993022       0.968991
+ True   False         False  0.992585  0.992628       0.973920
+False    True         False  0.992677  0.992618       0.963036
+False    True          True  0.992701  0.992594       0.967086
+False   False         False  0.992639  0.992582       0.965104
+ True    True          True  0.991042  0.990945       0.953653
+False   False          True  0.990401  0.990040       0.921675
+ True   False          True  0.988102  0.987619       0.907479
+
+Ascening by ROC-AUC score:
+
+  SNV  Savgol  Differencing  Accuracy  F1-score  roc-auc-score
+ True   False         False  0.992585  0.992628       0.973920
+ True    True         False  0.993025  0.993022       0.968991
+False    True          True  0.992701  0.992594       0.967086
+False   False         False  0.992639  0.992582       0.965104
+False    True         False  0.992677  0.992618       0.963036
+ True    True          True  0.991042  0.990945       0.953653
+False   False          True  0.990401  0.990040       0.921675
+ True   False          True  0.988102  0.987619       0.907479

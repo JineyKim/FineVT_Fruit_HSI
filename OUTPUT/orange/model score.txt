@@ -1,0 +1,9 @@
+                 Model  F1-score  ROC-AUC  Accuracy
+         Random Forest  0.984675 0.998557  0.985754
+Hist Gradient Boosting  0.988138 0.978933  0.988304
+           Extra Trees  0.984571 0.998612  0.985661
+                  k-NN  0.989109 0.984500  0.989240
+         Decision Tree  0.976905 0.859322  0.976795
+               XGBoost  0.988813 0.999347  0.989146
+              LightGBM  0.987698 0.994067  0.988000
+              CatBoost  0.988424 0.999365  0.988795
